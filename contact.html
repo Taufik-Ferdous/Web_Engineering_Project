@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tourest Travel - Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+  <header class="header" data-header>
+    <div class="container">
+      <a href="index.html" class="logo">Tourest</a>
+
+      <button class="nav-toggle" data-nav-toggle-btn aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="tours.html" class="nav-link">Tours</a></li>
+          <li><a href="destinations.html" class="nav-link">Destinations</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>
+          Have questions or ready to start planning your trip? Reach out and our team
+          will get back to you within 24 hours.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="card">
+          <h2>Get in Touch</h2>
+          <p>
+            Fill out the form and we’ll help you customize your dream itinerary.
+          </p>
+
+          <form id="contact-form">
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+            <p id="form-status" class="status"></p>
+          </form>
+        </div>
+
+        <div class="card info-card">
+          <h2>Contact Details</h2>
+          <ul class="info-list">
+            <li>
+              <strong>Email</strong><br />
+              hello@tourest.com
+            </li>
+            <li>
+              <strong>Phone</strong><br />
+              +1 (555) 123-4567
+            </li>
+            <li>
+              <strong>Whatsapp</strong><br />
+              +1 (555) 987-6543
+            </li>
+            <li>
+              <strong>Office Hours</strong><br />
+              Monday–Friday, 9:00 AM – 6:00 PM
+            </li>
+          </ul>
+
+          <h3>Office Address</h3>
+          <p>
+            123 Explorer Lane<br />
+            Travel City, TC 45678<br />
+            Wonderland
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom">
+      © 2025 Tourest. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="contact.js" defer></script>
+</body>
+</html>
